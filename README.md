@@ -12,7 +12,7 @@ If you don't already have Anaconda or Miniconda installed, download Miniconda he
 
 Download SAMap github directory: [SAMap Github](https://github.com/atarashansky/SAMap)
 
-- click "Code#, then "Download ZIP#, save zip file to an easy-to-remember location
+- click `Code`, then `Download ZIP`, save zip file to an easy-to-remember location
 - unzip directory
 
 In Mac/Linux, open a Terminal Window. In Windows click on start and open "Anaconda Prompt (miniconda)#. Then, change directory to the SAMap github directory that you just saved and unzipped.
