@@ -39,7 +39,9 @@ conda install -c conda-forge -c plotly ipywidgets plotly=4.0.0 colorlover ipyeve
 ```
 
 B) For using SAM GUI in jupyterlab (vs. the classic jupyter notebook), there is one more installation step:
-```conda install nodejs```
+```
+conda install nodejs
+```
 
 C) Enable ipythonwidgets in Jupyter Lab:
 ```
