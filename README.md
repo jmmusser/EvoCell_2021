@@ -18,11 +18,13 @@ B) Download SAMap github directory: [SAMap Github](https://github.com/atarashans
 C) In Mac/Linux, open a Terminal Window. In Windows click on start and open "Anaconda Prompt (miniconda)#. Then, change directory to the SAMap github directory that you just saved and unzipped.
 
 D) Create a new conda environment for installing SAMap using the following command:
-``` conda create -n SAMap2 -c conda-forge python=3.7 pip pybind11 h5py=2.10.0 leidenalg python-
+``` 
+conda create -n SAMap2 -c conda-forge python=3.7 pip pybind11 h5py=2.10.0 leidenalg python-
  igraph texttable jupyterlab=1.2.0
  ```
  
-E) Activate the new conda environment: `conda activate SAMap`
+E) Activate the new conda environment: 
+```conda activate SAMap```
  
 F) Install SAMap with the command `pip install .`
 
@@ -33,7 +35,8 @@ G) Open the jupyter lab notebook with the command `jupyter lab`
 
 A) Install additional python libraries:
 ```
-conda install -c conda-forge -c plotly ipywidgets plotly=4.0.0 colorlover ipyevents```
+conda install -c conda-forge -c plotly ipywidgets plotly=4.0.0 colorlover ipyevents
+```
 
 B) For using SAM GUI in jupyterlab (vs. the classic jupyter notebook), there is one more installation step:
 ```conda install nodejs```
