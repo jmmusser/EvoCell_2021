@@ -32,10 +32,11 @@ G) Open the jupyter lab notebook with the command `jupyter lab`
 ### Installing SAM GUI
 
 A) Install additional python libraries:
-`conda install -c conda-forge -c plotly ipywidgets plotly=4.0.0 colorlover ipyevents`
+```
+conda install -c conda-forge -c plotly ipywidgets plotly=4.0.0 colorlover ipyevents```
 
 B) For using SAM GUI in jupyterlab (vs. the classic jupyter notebook), there is one more installation step:
-`conda install nodejs`
+```conda install nodejs```
 
 C) Enable ipythonwidgets in Jupyter Lab:
 ```
