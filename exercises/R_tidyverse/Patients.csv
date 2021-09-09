@@ -1,0 +1,4 @@
+PatientId,Height, Weight, Gender 
+P1,1.65,75.0,f
+P2,1.90,,m
+P3,1.60,50.0,f
